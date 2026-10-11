@@ -1,0 +1,98 @@
+type,entity,metric,value,benchmark,severity,detail
+Late delivery by state,MA,late_pct,20.4,8.11,High,20.4% of orders late vs 8.11% nationally; avg review 3.76 across 717 orders.
+Late delivery by state,AL,late_pct,24.1,8.11,High,24.1% of orders late vs 8.11% nationally; avg review 3.82 across 397 orders.
+Late delivery by state,SE,late_pct,16.3,8.11,High,16.3% of orders late vs 8.11% nationally; avg review 3.9 across 335 orders.
+Late delivery spike,2018-02,late_pct,15.7,6.86,High,Late rate hit 15.7% vs a monthly average of 6.9%.
+Late delivery spike,2018-03,late_pct,20.5,6.86,High,Late rate hit 20.5% vs a monthly average of 6.9%.
+Low customer retention,All customers,repeat_customer_pct,3.0,5.0,High,"Only 3.0% of 93,358 customers ordered more than once."
+Low-rated category,office_furniture,avg_review,3.52,4.16,High,"Avg review 3.52 vs 4.16 overall; 1254 orders, 8.9% late."
+Underperforming seller,2eb70248,avg_review,2.81,4.0,High,"Seller 2eb70248 (SP): review 2.81, 14.2% late, 187 orders, revenue 38,991."
+Underperforming seller,8e6d7754,avg_review,2.99,4.0,High,"Seller 8e6d7754 (SP): review 2.99, 12.4% late, 84 orders, revenue 14,107."
+Underperforming seller,6039e272,avg_review,3.86,4.0,High,"Seller 6039e272 (SP): review 3.86, 25.7% late, 63 orders, revenue 13,501."
+Underperforming seller,1ca7077d,avg_review,2.27,4.0,High,"Seller 1ca7077d (SP): review 2.27, 19.7% late, 108 orders, revenue 12,475."
+Underperforming seller,66e0557e,avg_review,4.03,4.0,High,"Seller 66e0557e (SP): review 4.03, 26.7% late, 30 orders, revenue 12,141."
+Underperforming seller,54965bbe,avg_review,3.07,4.0,High,"Seller 54965bbe (PR): review 3.07, 32.1% late, 73 orders, revenue 10,352."
+Underperforming seller,a49928bc,avg_review,2.97,4.0,High,"Seller a49928bc (SP): review 2.97, 25.0% late, 96 orders, revenue 8,647."
+Underperforming seller,972d0f9c,avg_review,2.96,4.0,High,"Seller 972d0f9c (SC): review 2.96, 11.6% late, 81 orders, revenue 7,910."
+Underperforming seller,ad781527,avg_review,3.34,4.0,High,"Seller ad781527 (SP): review 3.34, 31.6% late, 38 orders, revenue 6,040."
+Underperforming seller,835f0f78,avg_review,3.31,4.0,High,"Seller 835f0f78 (SP): review 3.31, 31.3% late, 42 orders, revenue 4,990."
+Underperforming seller,602044f2,avg_review,2.96,4.0,High,"Seller 602044f2 (SP): review 2.96, 23.6% late, 48 orders, revenue 3,559."
+Underperforming seller,71039d19,avg_review,3.68,4.0,High,"Seller 71039d19 (SP): review 3.68, 26.3% late, 35 orders, revenue 3,537."
+Underperforming seller,2a1348e9,avg_review,3.04,4.0,High,"Seller 2a1348e9 (MG): review 3.04, 29.4% late, 48 orders, revenue 2,697."
+Underperforming seller,ede0c036,avg_review,3.67,4.0,High,"Seller ede0c036 (SP): review 3.67, 34.0% late, 43 orders, revenue 2,352."
+High freight cost,MA,freight_pct,26.3,16.6,Medium,Freight is 26.3% of product revenue vs 16.6% overall (717 orders).
+High freight cost,PI,freight_pct,24.1,16.6,Medium,Freight is 24.1% of product revenue vs 16.6% overall (476 orders).
+High freight cost,SE,freight_pct,24.2,16.6,Medium,Freight is 24.2% of product revenue vs 16.6% overall (335 orders).
+High freight cost,TO,freight_pct,24.0,16.6,Medium,Freight is 24.0% of product revenue vs 16.6% overall (274 orders).
+High freight cost,RO,freight_pct,24.7,16.6,Medium,Freight is 24.7% of product revenue vs 16.6% overall (243 orders).
+Late delivery by state,RJ,late_pct,13.0,8.11,Medium,13.0% of orders late vs 8.11% nationally; avg review 3.87 across 12350 orders.
+Late delivery by state,BA,late_pct,13.7,8.11,Medium,13.7% of orders late vs 8.11% nationally; avg review 3.86 across 3256 orders.
+Late delivery by state,ES,late_pct,12.2,8.11,Medium,12.2% of orders late vs 8.11% nationally; avg review 4.01 across 1995 orders.
+Late delivery by state,CE,late_pct,15.3,8.11,Medium,15.3% of orders late vs 8.11% nationally; avg review 3.88 across 1279 orders.
+Late delivery by state,PA,late_pct,12.4,8.11,Medium,12.4% of orders late vs 8.11% nationally; avg review 3.84 across 946 orders.
+Late delivery by state,PI,late_pct,15.5,8.11,Medium,15.5% of orders late vs 8.11% nationally; avg review 3.96 across 476 orders.
+Late delivery by state,TO,late_pct,12.3,8.11,Medium,12.3% of orders late vs 8.11% nationally; avg review 4.16 across 274 orders.
+Low-rated category,fixed_telephony,avg_review,3.76,4.16,Medium,"Avg review 3.76 vs 4.16 overall; 212 orders, 4.3% late."
+Low-rated category,fashion_male_clothing,avg_review,3.76,4.16,Medium,"Avg review 3.76 vs 4.16 overall; 106 orders, 5.6% late."
+Review score drop,2018-02,bad_review_pct,19.4,12.29,Medium,19.4% of reviews were 1-2 stars vs 12.3% average.
+Review score drop,2018-03,bad_review_pct,21.2,12.29,Medium,21.2% of reviews were 1-2 stars vs 12.3% average.
+Underperforming seller,7c67e144,avg_review,3.35,4.0,Medium,"Seller 7c67e144 (SP): review 3.35, 9.6% late, 973 orders, revenue 186,570."
+Underperforming seller,f7ba60f8,avg_review,4.22,4.0,Medium,"Seller f7ba60f8 (SP): review 4.22, 16.6% late, 218 orders, revenue 68,070."
+Underperforming seller,81602554,avg_review,3.85,4.0,Medium,"Seller 81602554 (SP): review 3.85, 17.9% late, 380 orders, revenue 46,368."
+Underperforming seller,712e6ed8,avg_review,3.46,4.0,Medium,"Seller 712e6ed8 (SC): review 3.46, 21.2% late, 77 orders, revenue 39,385."
+Underperforming seller,06a2c3af,avg_review,4.02,4.0,Medium,"Seller 06a2c3af (MA): review 4.02, 23.4% late, 389 orders, revenue 36,098."
+Underperforming seller,88460e8e,avg_review,3.36,4.0,Medium,"Seller 88460e8e (PR): review 3.36, 19.7% late, 246 orders, revenue 31,320."
+Underperforming seller,710e3548,avg_review,3.46,4.0,Medium,"Seller 710e3548 (PR): review 3.46, 4.4% late, 131 orders, revenue 22,369."
+Underperforming seller,897060da,avg_review,3.47,4.0,Medium,"Seller 897060da (SP): review 3.47, 12.1% late, 304 orders, revenue 21,741."
+Underperforming seller,8444e55c,avg_review,3.16,4.0,Medium,"Seller 8444e55c (MG): review 3.16, 10.8% late, 92 orders, revenue 21,481."
+Underperforming seller,cd68562d,avg_review,3.91,4.0,Medium,"Seller cd68562d (SP): review 3.91, 20.2% late, 122 orders, revenue 18,120."
+Underperforming seller,abe42c5d,avg_review,3.96,4.0,Medium,"Seller abe42c5d (RJ): review 3.96, 16.3% late, 49 orders, revenue 17,000."
+Underperforming seller,431af27f,avg_review,3.8,4.0,Medium,"Seller 431af27f (SP): review 3.8, 15.3% late, 116 orders, revenue 12,975."
+Underperforming seller,a7f13822,avg_review,3.49,4.0,Medium,"Seller a7f13822 (SP): review 3.49, 6.0% late, 73 orders, revenue 12,018."
+Underperforming seller,adbc2665,avg_review,4.05,4.0,Medium,"Seller adbc2665 (PR): review 4.05, 15.2% late, 88 orders, revenue 11,806."
+Underperforming seller,c60b801f,avg_review,3.44,4.0,Medium,"Seller c60b801f (SP): review 3.44, 20.5% late, 39 orders, revenue 11,296."
+Underperforming seller,82e0a475,avg_review,3.49,4.0,Medium,"Seller 82e0a475 (SP): review 3.49, 6.3% late, 41 orders, revenue 10,748."
+Underperforming seller,6973a06f,avg_review,3.64,4.0,Medium,"Seller 6973a06f (SP): review 3.64, 16.7% late, 89 orders, revenue 10,419."
+Underperforming seller,ea566164,avg_review,3.75,4.0,Medium,"Seller ea566164 (SP): review 3.75, 23.1% late, 50 orders, revenue 10,309."
+Underperforming seller,5058e8c1,avg_review,3.08,4.0,Medium,"Seller 5058e8c1 (SP): review 3.08, 13.0% late, 62 orders, revenue 9,813."
+Underperforming seller,90303766,avg_review,3.81,4.0,Medium,"Seller 90303766 (SP): review 3.81, 15.3% late, 44 orders, revenue 7,935."
+Underperforming seller,e5a34388,avg_review,3.88,4.0,Medium,"Seller e5a34388 (SP): review 3.88, 18.2% late, 216 orders, revenue 7,550."
+Underperforming seller,d13e50ea,avg_review,4.81,4.0,Medium,"Seller d13e50ea (SP): review 4.81, 20.6% late, 66 orders, revenue 7,073."
+Underperforming seller,dd55f1bb,avg_review,3.81,4.0,Medium,"Seller dd55f1bb (SP): review 3.81, 16.2% late, 35 orders, revenue 7,042."
+Underperforming seller,2c9e548b,avg_review,3.95,4.0,Medium,"Seller 2c9e548b (SP): review 3.95, 17.0% late, 124 orders, revenue 6,014."
+Underperforming seller,ba143b05,avg_review,4.46,4.0,Medium,"Seller ba143b05 (SP): review 4.46, 15.5% late, 83 orders, revenue 5,999."
+Underperforming seller,0bf0150d,avg_review,3.71,4.0,Medium,"Seller 0bf0150d (SP): review 3.71, 19.4% late, 39 orders, revenue 5,775."
+Underperforming seller,2a261b5b,avg_review,3.34,4.0,Medium,"Seller 2a261b5b (SP): review 3.34, 22.0% late, 51 orders, revenue 5,355."
+Underperforming seller,e62b2d6a,avg_review,3.83,4.0,Medium,"Seller e62b2d6a (SP): review 3.83, 15.5% late, 62 orders, revenue 5,340."
+Underperforming seller,0d85bbda,avg_review,4.21,4.0,Medium,"Seller 0d85bbda (MG): review 4.21, 19.0% late, 51 orders, revenue 4,845."
+Underperforming seller,b2479f94,avg_review,3.33,4.0,Medium,"Seller b2479f94 (SP): review 3.33, 14.7% late, 101 orders, revenue 4,667."
+Underperforming seller,ef990a83,avg_review,3.66,4.0,Medium,"Seller ef990a83 (SC): review 3.66, 25.0% late, 43 orders, revenue 4,643."
+Underperforming seller,06579cb2,avg_review,3.84,4.0,Medium,"Seller 06579cb2 (SP): review 3.84, 15.7% late, 61 orders, revenue 4,587."
+Underperforming seller,bbad7e51,avg_review,3.05,4.0,Medium,"Seller bbad7e51 (SP): review 3.05, 22.6% late, 68 orders, revenue 4,426."
+Underperforming seller,beadbee3,avg_review,3.94,4.0,Medium,"Seller beadbee3 (SP): review 3.94, 23.5% late, 64 orders, revenue 4,374."
+Underperforming seller,834f8533,avg_review,3.84,4.0,Medium,"Seller 834f8533 (SP): review 3.84, 17.8% late, 41 orders, revenue 4,324."
+Underperforming seller,3c03b12b,avg_review,3.88,4.0,Medium,"Seller 3c03b12b (RJ): review 3.88, 16.3% late, 37 orders, revenue 4,236."
+Underperforming seller,8b9d6eec,avg_review,4.12,4.0,Medium,"Seller 8b9d6eec (RJ): review 4.12, 15.4% late, 48 orders, revenue 4,160."
+Underperforming seller,cac4c8e7,avg_review,3.54,4.0,Medium,"Seller cac4c8e7 (SP): review 3.54, 23.2% late, 74 orders, revenue 4,128."
+Underperforming seller,6ec1a01e,avg_review,4.24,4.0,Medium,"Seller 6ec1a01e (SP): review 4.24, 22.6% late, 30 orders, revenue 3,999."
+Underperforming seller,ec887996,avg_review,4.29,4.0,Medium,"Seller ec887996 (SP): review 4.29, 17.1% late, 35 orders, revenue 3,958."
+Underperforming seller,11bfa663,avg_review,3.8,4.0,Medium,"Seller 11bfa663 (SP): review 3.8, 17.6% late, 76 orders, revenue 3,926."
+Underperforming seller,d20b021d,avg_review,3.69,4.0,Medium,"Seller d20b021d (SP): review 3.69, 17.6% late, 86 orders, revenue 3,922."
+Underperforming seller,3f3486b6,avg_review,4.33,4.0,Medium,"Seller 3f3486b6 (SP): review 4.33, 15.4% late, 39 orders, revenue 3,770."
+Underperforming seller,891071be,avg_review,3.86,4.0,Medium,"Seller 891071be (SP): review 3.86, 16.7% late, 85 orders, revenue 3,763."
+Underperforming seller,56642bcb,avg_review,3.77,4.0,Medium,"Seller 56642bcb (SP): review 3.77, 16.1% late, 48 orders, revenue 3,658."
+Underperforming seller,99a54764,avg_review,3.51,4.0,Medium,"Seller 99a54764 (SP): review 3.51, 22.7% late, 44 orders, revenue 3,579."
+Underperforming seller,66dc1b16,avg_review,3.49,4.0,Medium,"Seller 66dc1b16 (SP): review 3.49, 2.4% late, 36 orders, revenue 3,542."
+Underperforming seller,b17b679f,avg_review,3.92,4.0,Medium,"Seller b17b679f (SP): review 3.92, 17.6% late, 50 orders, revenue 3,424."
+Underperforming seller,95f83f51,avg_review,3.22,4.0,Medium,"Seller 95f83f51 (MG): review 3.22, 4.6% late, 50 orders, revenue 3,078."
+Underperforming seller,a6fe7de3,avg_review,4.06,4.0,Medium,"Seller a6fe7de3 (SP): review 4.06, 15.7% late, 50 orders, revenue 2,845."
+Underperforming seller,3fd1e727,avg_review,3.97,4.0,Medium,"Seller 3fd1e727 (SP): review 3.97, 19.4% late, 35 orders, revenue 2,747."
+Underperforming seller,d93919c9,avg_review,4.0,4.0,Medium,"Seller d93919c9 (SP): review 4.0, 18.2% late, 33 orders, revenue 2,667."
+Underperforming seller,d3f39f05,avg_review,3.32,4.0,Medium,"Seller d3f39f05 (SP): review 3.32, 13.5% late, 33 orders, revenue 2,363."
+Underperforming seller,b74d1c09,avg_review,4.24,4.0,Medium,"Seller b74d1c09 (RJ): review 4.24, 15.8% late, 30 orders, revenue 2,175."
+Underperforming seller,dc8798cb,avg_review,3.49,4.0,Medium,"Seller dc8798cb (SP): review 3.49, 7.0% late, 35 orders, revenue 1,733."
+Underperforming seller,002100f7,avg_review,4.04,4.0,Medium,"Seller 002100f7 (SP): review 4.04, 16.7% late, 50 orders, revenue 1,217."
+Revenue drop,2017-06,revenue_growth_pct,-13.8,0.0,Low,"Revenue fell 13.8% vs the previous month (check for seasonality, e.g. after Black Friday)."
+Revenue drop,2017-12,revenue_growth_pct,-26.5,0.0,Low,"Revenue fell 26.5% vs the previous month (check for seasonality, e.g. after Black Friday)."
+Revenue drop,2018-02,revenue_growth_pct,-10.6,0.0,Low,"Revenue fell 10.6% vs the previous month (check for seasonality, e.g. after Black Friday)."
+Revenue drop,2018-06,revenue_growth_pct,-12.4,0.0,Low,"Revenue fell 12.4% vs the previous month (check for seasonality, e.g. after Black Friday)."

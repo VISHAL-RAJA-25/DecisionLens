@@ -1,0 +1,11 @@
+{
+  "total_orders":96478.0,
+  "total_revenue":13221498.1099999994,
+  "avg_order_value":137.04,
+  "freight_share_pct":16.6,
+  "unique_customers":93358.0,
+  "repeat_customer_pct":3.0,
+  "late_delivery_pct":8.11,
+  "avg_delivery_days":12.6,
+  "avg_review_score":4.16
+}

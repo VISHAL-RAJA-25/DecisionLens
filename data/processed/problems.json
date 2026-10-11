@@ -1,0 +1,875 @@
+[
+  {
+    "type": "Late delivery by state",
+    "entity": "MA",
+    "metric": "late_pct",
+    "value": 20.4,
+    "benchmark": 8.11,
+    "severity": "High",
+    "detail": "20.4% of orders late vs 8.11% nationally; avg review 3.76 across 717 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "AL",
+    "metric": "late_pct",
+    "value": 24.1,
+    "benchmark": 8.11,
+    "severity": "High",
+    "detail": "24.1% of orders late vs 8.11% nationally; avg review 3.82 across 397 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "SE",
+    "metric": "late_pct",
+    "value": 16.3,
+    "benchmark": 8.11,
+    "severity": "High",
+    "detail": "16.3% of orders late vs 8.11% nationally; avg review 3.9 across 335 orders."
+  },
+  {
+    "type": "Late delivery spike",
+    "entity": "2018-02",
+    "metric": "late_pct",
+    "value": 15.7,
+    "benchmark": 6.86,
+    "severity": "High",
+    "detail": "Late rate hit 15.7% vs a monthly average of 6.9%."
+  },
+  {
+    "type": "Late delivery spike",
+    "entity": "2018-03",
+    "metric": "late_pct",
+    "value": 20.5,
+    "benchmark": 6.86,
+    "severity": "High",
+    "detail": "Late rate hit 20.5% vs a monthly average of 6.9%."
+  },
+  {
+    "type": "Low customer retention",
+    "entity": "All customers",
+    "metric": "repeat_customer_pct",
+    "value": 3.0,
+    "benchmark": 5.0,
+    "severity": "High",
+    "detail": "Only 3.0% of 93,358 customers ordered more than once."
+  },
+  {
+    "type": "Low-rated category",
+    "entity": "office_furniture",
+    "metric": "avg_review",
+    "value": 3.52,
+    "benchmark": 4.16,
+    "severity": "High",
+    "detail": "Avg review 3.52 vs 4.16 overall; 1254 orders, 8.9% late."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "2eb70248",
+    "metric": "avg_review",
+    "value": 2.81,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 2eb70248 (SP): review 2.81, 14.2% late, 187 orders, revenue 38,991."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "8e6d7754",
+    "metric": "avg_review",
+    "value": 2.99,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 8e6d7754 (SP): review 2.99, 12.4% late, 84 orders, revenue 14,107."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "6039e272",
+    "metric": "avg_review",
+    "value": 3.86,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 6039e272 (SP): review 3.86, 25.7% late, 63 orders, revenue 13,501."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "1ca7077d",
+    "metric": "avg_review",
+    "value": 2.27,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 1ca7077d (SP): review 2.27, 19.7% late, 108 orders, revenue 12,475."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "66e0557e",
+    "metric": "avg_review",
+    "value": 4.03,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 66e0557e (SP): review 4.03, 26.7% late, 30 orders, revenue 12,141."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "54965bbe",
+    "metric": "avg_review",
+    "value": 3.07,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 54965bbe (PR): review 3.07, 32.1% late, 73 orders, revenue 10,352."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "a49928bc",
+    "metric": "avg_review",
+    "value": 2.97,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller a49928bc (SP): review 2.97, 25.0% late, 96 orders, revenue 8,647."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "972d0f9c",
+    "metric": "avg_review",
+    "value": 2.96,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 972d0f9c (SC): review 2.96, 11.6% late, 81 orders, revenue 7,910."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "ad781527",
+    "metric": "avg_review",
+    "value": 3.34,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller ad781527 (SP): review 3.34, 31.6% late, 38 orders, revenue 6,040."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "835f0f78",
+    "metric": "avg_review",
+    "value": 3.31,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 835f0f78 (SP): review 3.31, 31.3% late, 42 orders, revenue 4,990."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "602044f2",
+    "metric": "avg_review",
+    "value": 2.96,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 602044f2 (SP): review 2.96, 23.6% late, 48 orders, revenue 3,559."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "71039d19",
+    "metric": "avg_review",
+    "value": 3.68,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 71039d19 (SP): review 3.68, 26.3% late, 35 orders, revenue 3,537."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "2a1348e9",
+    "metric": "avg_review",
+    "value": 3.04,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller 2a1348e9 (MG): review 3.04, 29.4% late, 48 orders, revenue 2,697."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "ede0c036",
+    "metric": "avg_review",
+    "value": 3.67,
+    "benchmark": 4.0,
+    "severity": "High",
+    "detail": "Seller ede0c036 (SP): review 3.67, 34.0% late, 43 orders, revenue 2,352."
+  },
+  {
+    "type": "High freight cost",
+    "entity": "MA",
+    "metric": "freight_pct",
+    "value": 26.3,
+    "benchmark": 16.6,
+    "severity": "Medium",
+    "detail": "Freight is 26.3% of product revenue vs 16.6% overall (717 orders)."
+  },
+  {
+    "type": "High freight cost",
+    "entity": "PI",
+    "metric": "freight_pct",
+    "value": 24.1,
+    "benchmark": 16.6,
+    "severity": "Medium",
+    "detail": "Freight is 24.1% of product revenue vs 16.6% overall (476 orders)."
+  },
+  {
+    "type": "High freight cost",
+    "entity": "SE",
+    "metric": "freight_pct",
+    "value": 24.2,
+    "benchmark": 16.6,
+    "severity": "Medium",
+    "detail": "Freight is 24.2% of product revenue vs 16.6% overall (335 orders)."
+  },
+  {
+    "type": "High freight cost",
+    "entity": "TO",
+    "metric": "freight_pct",
+    "value": 24.0,
+    "benchmark": 16.6,
+    "severity": "Medium",
+    "detail": "Freight is 24.0% of product revenue vs 16.6% overall (274 orders)."
+  },
+  {
+    "type": "High freight cost",
+    "entity": "RO",
+    "metric": "freight_pct",
+    "value": 24.7,
+    "benchmark": 16.6,
+    "severity": "Medium",
+    "detail": "Freight is 24.7% of product revenue vs 16.6% overall (243 orders)."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "RJ",
+    "metric": "late_pct",
+    "value": 13.0,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "13.0% of orders late vs 8.11% nationally; avg review 3.87 across 12350 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "BA",
+    "metric": "late_pct",
+    "value": 13.7,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "13.7% of orders late vs 8.11% nationally; avg review 3.86 across 3256 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "ES",
+    "metric": "late_pct",
+    "value": 12.2,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "12.2% of orders late vs 8.11% nationally; avg review 4.01 across 1995 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "CE",
+    "metric": "late_pct",
+    "value": 15.3,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "15.3% of orders late vs 8.11% nationally; avg review 3.88 across 1279 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "PA",
+    "metric": "late_pct",
+    "value": 12.4,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "12.4% of orders late vs 8.11% nationally; avg review 3.84 across 946 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "PI",
+    "metric": "late_pct",
+    "value": 15.5,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "15.5% of orders late vs 8.11% nationally; avg review 3.96 across 476 orders."
+  },
+  {
+    "type": "Late delivery by state",
+    "entity": "TO",
+    "metric": "late_pct",
+    "value": 12.3,
+    "benchmark": 8.11,
+    "severity": "Medium",
+    "detail": "12.3% of orders late vs 8.11% nationally; avg review 4.16 across 274 orders."
+  },
+  {
+    "type": "Low-rated category",
+    "entity": "fixed_telephony",
+    "metric": "avg_review",
+    "value": 3.76,
+    "benchmark": 4.16,
+    "severity": "Medium",
+    "detail": "Avg review 3.76 vs 4.16 overall; 212 orders, 4.3% late."
+  },
+  {
+    "type": "Low-rated category",
+    "entity": "fashion_male_clothing",
+    "metric": "avg_review",
+    "value": 3.76,
+    "benchmark": 4.16,
+    "severity": "Medium",
+    "detail": "Avg review 3.76 vs 4.16 overall; 106 orders, 5.6% late."
+  },
+  {
+    "type": "Review score drop",
+    "entity": "2018-02",
+    "metric": "bad_review_pct",
+    "value": 19.4,
+    "benchmark": 12.29,
+    "severity": "Medium",
+    "detail": "19.4% of reviews were 1-2 stars vs 12.3% average."
+  },
+  {
+    "type": "Review score drop",
+    "entity": "2018-03",
+    "metric": "bad_review_pct",
+    "value": 21.2,
+    "benchmark": 12.29,
+    "severity": "Medium",
+    "detail": "21.2% of reviews were 1-2 stars vs 12.3% average."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "7c67e144",
+    "metric": "avg_review",
+    "value": 3.35,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 7c67e144 (SP): review 3.35, 9.6% late, 973 orders, revenue 186,570."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "f7ba60f8",
+    "metric": "avg_review",
+    "value": 4.22,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller f7ba60f8 (SP): review 4.22, 16.6% late, 218 orders, revenue 68,070."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "81602554",
+    "metric": "avg_review",
+    "value": 3.85,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 81602554 (SP): review 3.85, 17.9% late, 380 orders, revenue 46,368."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "712e6ed8",
+    "metric": "avg_review",
+    "value": 3.46,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 712e6ed8 (SC): review 3.46, 21.2% late, 77 orders, revenue 39,385."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "06a2c3af",
+    "metric": "avg_review",
+    "value": 4.02,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 06a2c3af (MA): review 4.02, 23.4% late, 389 orders, revenue 36,098."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "88460e8e",
+    "metric": "avg_review",
+    "value": 3.36,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 88460e8e (PR): review 3.36, 19.7% late, 246 orders, revenue 31,320."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "710e3548",
+    "metric": "avg_review",
+    "value": 3.46,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 710e3548 (PR): review 3.46, 4.4% late, 131 orders, revenue 22,369."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "897060da",
+    "metric": "avg_review",
+    "value": 3.47,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 897060da (SP): review 3.47, 12.1% late, 304 orders, revenue 21,741."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "8444e55c",
+    "metric": "avg_review",
+    "value": 3.16,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 8444e55c (MG): review 3.16, 10.8% late, 92 orders, revenue 21,481."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "cd68562d",
+    "metric": "avg_review",
+    "value": 3.91,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller cd68562d (SP): review 3.91, 20.2% late, 122 orders, revenue 18,120."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "abe42c5d",
+    "metric": "avg_review",
+    "value": 3.96,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller abe42c5d (RJ): review 3.96, 16.3% late, 49 orders, revenue 17,000."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "431af27f",
+    "metric": "avg_review",
+    "value": 3.8,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 431af27f (SP): review 3.8, 15.3% late, 116 orders, revenue 12,975."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "a7f13822",
+    "metric": "avg_review",
+    "value": 3.49,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller a7f13822 (SP): review 3.49, 6.0% late, 73 orders, revenue 12,018."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "adbc2665",
+    "metric": "avg_review",
+    "value": 4.05,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller adbc2665 (PR): review 4.05, 15.2% late, 88 orders, revenue 11,806."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "c60b801f",
+    "metric": "avg_review",
+    "value": 3.44,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller c60b801f (SP): review 3.44, 20.5% late, 39 orders, revenue 11,296."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "82e0a475",
+    "metric": "avg_review",
+    "value": 3.49,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 82e0a475 (SP): review 3.49, 6.3% late, 41 orders, revenue 10,748."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "6973a06f",
+    "metric": "avg_review",
+    "value": 3.64,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 6973a06f (SP): review 3.64, 16.7% late, 89 orders, revenue 10,419."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "ea566164",
+    "metric": "avg_review",
+    "value": 3.75,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller ea566164 (SP): review 3.75, 23.1% late, 50 orders, revenue 10,309."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "5058e8c1",
+    "metric": "avg_review",
+    "value": 3.08,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 5058e8c1 (SP): review 3.08, 13.0% late, 62 orders, revenue 9,813."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "90303766",
+    "metric": "avg_review",
+    "value": 3.81,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 90303766 (SP): review 3.81, 15.3% late, 44 orders, revenue 7,935."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "e5a34388",
+    "metric": "avg_review",
+    "value": 3.88,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller e5a34388 (SP): review 3.88, 18.2% late, 216 orders, revenue 7,550."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "d13e50ea",
+    "metric": "avg_review",
+    "value": 4.81,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller d13e50ea (SP): review 4.81, 20.6% late, 66 orders, revenue 7,073."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "dd55f1bb",
+    "metric": "avg_review",
+    "value": 3.81,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller dd55f1bb (SP): review 3.81, 16.2% late, 35 orders, revenue 7,042."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "2c9e548b",
+    "metric": "avg_review",
+    "value": 3.95,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 2c9e548b (SP): review 3.95, 17.0% late, 124 orders, revenue 6,014."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "ba143b05",
+    "metric": "avg_review",
+    "value": 4.46,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller ba143b05 (SP): review 4.46, 15.5% late, 83 orders, revenue 5,999."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "0bf0150d",
+    "metric": "avg_review",
+    "value": 3.71,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 0bf0150d (SP): review 3.71, 19.4% late, 39 orders, revenue 5,775."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "2a261b5b",
+    "metric": "avg_review",
+    "value": 3.34,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 2a261b5b (SP): review 3.34, 22.0% late, 51 orders, revenue 5,355."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "e62b2d6a",
+    "metric": "avg_review",
+    "value": 3.83,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller e62b2d6a (SP): review 3.83, 15.5% late, 62 orders, revenue 5,340."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "0d85bbda",
+    "metric": "avg_review",
+    "value": 4.21,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 0d85bbda (MG): review 4.21, 19.0% late, 51 orders, revenue 4,845."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "b2479f94",
+    "metric": "avg_review",
+    "value": 3.33,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller b2479f94 (SP): review 3.33, 14.7% late, 101 orders, revenue 4,667."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "ef990a83",
+    "metric": "avg_review",
+    "value": 3.66,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller ef990a83 (SC): review 3.66, 25.0% late, 43 orders, revenue 4,643."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "06579cb2",
+    "metric": "avg_review",
+    "value": 3.84,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 06579cb2 (SP): review 3.84, 15.7% late, 61 orders, revenue 4,587."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "bbad7e51",
+    "metric": "avg_review",
+    "value": 3.05,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller bbad7e51 (SP): review 3.05, 22.6% late, 68 orders, revenue 4,426."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "beadbee3",
+    "metric": "avg_review",
+    "value": 3.94,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller beadbee3 (SP): review 3.94, 23.5% late, 64 orders, revenue 4,374."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "834f8533",
+    "metric": "avg_review",
+    "value": 3.84,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 834f8533 (SP): review 3.84, 17.8% late, 41 orders, revenue 4,324."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "3c03b12b",
+    "metric": "avg_review",
+    "value": 3.88,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 3c03b12b (RJ): review 3.88, 16.3% late, 37 orders, revenue 4,236."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "8b9d6eec",
+    "metric": "avg_review",
+    "value": 4.12,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 8b9d6eec (RJ): review 4.12, 15.4% late, 48 orders, revenue 4,160."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "cac4c8e7",
+    "metric": "avg_review",
+    "value": 3.54,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller cac4c8e7 (SP): review 3.54, 23.2% late, 74 orders, revenue 4,128."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "6ec1a01e",
+    "metric": "avg_review",
+    "value": 4.24,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 6ec1a01e (SP): review 4.24, 22.6% late, 30 orders, revenue 3,999."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "ec887996",
+    "metric": "avg_review",
+    "value": 4.29,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller ec887996 (SP): review 4.29, 17.1% late, 35 orders, revenue 3,958."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "11bfa663",
+    "metric": "avg_review",
+    "value": 3.8,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 11bfa663 (SP): review 3.8, 17.6% late, 76 orders, revenue 3,926."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "d20b021d",
+    "metric": "avg_review",
+    "value": 3.69,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller d20b021d (SP): review 3.69, 17.6% late, 86 orders, revenue 3,922."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "3f3486b6",
+    "metric": "avg_review",
+    "value": 4.33,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 3f3486b6 (SP): review 4.33, 15.4% late, 39 orders, revenue 3,770."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "891071be",
+    "metric": "avg_review",
+    "value": 3.86,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 891071be (SP): review 3.86, 16.7% late, 85 orders, revenue 3,763."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "56642bcb",
+    "metric": "avg_review",
+    "value": 3.77,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 56642bcb (SP): review 3.77, 16.1% late, 48 orders, revenue 3,658."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "99a54764",
+    "metric": "avg_review",
+    "value": 3.51,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 99a54764 (SP): review 3.51, 22.7% late, 44 orders, revenue 3,579."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "66dc1b16",
+    "metric": "avg_review",
+    "value": 3.49,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 66dc1b16 (SP): review 3.49, 2.4% late, 36 orders, revenue 3,542."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "b17b679f",
+    "metric": "avg_review",
+    "value": 3.92,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller b17b679f (SP): review 3.92, 17.6% late, 50 orders, revenue 3,424."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "95f83f51",
+    "metric": "avg_review",
+    "value": 3.22,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 95f83f51 (MG): review 3.22, 4.6% late, 50 orders, revenue 3,078."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "a6fe7de3",
+    "metric": "avg_review",
+    "value": 4.06,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller a6fe7de3 (SP): review 4.06, 15.7% late, 50 orders, revenue 2,845."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "3fd1e727",
+    "metric": "avg_review",
+    "value": 3.97,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 3fd1e727 (SP): review 3.97, 19.4% late, 35 orders, revenue 2,747."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "d93919c9",
+    "metric": "avg_review",
+    "value": 4.0,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller d93919c9 (SP): review 4.0, 18.2% late, 33 orders, revenue 2,667."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "d3f39f05",
+    "metric": "avg_review",
+    "value": 3.32,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller d3f39f05 (SP): review 3.32, 13.5% late, 33 orders, revenue 2,363."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "b74d1c09",
+    "metric": "avg_review",
+    "value": 4.24,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller b74d1c09 (RJ): review 4.24, 15.8% late, 30 orders, revenue 2,175."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "dc8798cb",
+    "metric": "avg_review",
+    "value": 3.49,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller dc8798cb (SP): review 3.49, 7.0% late, 35 orders, revenue 1,733."
+  },
+  {
+    "type": "Underperforming seller",
+    "entity": "002100f7",
+    "metric": "avg_review",
+    "value": 4.04,
+    "benchmark": 4.0,
+    "severity": "Medium",
+    "detail": "Seller 002100f7 (SP): review 4.04, 16.7% late, 50 orders, revenue 1,217."
+  },
+  {
+    "type": "Revenue drop",
+    "entity": "2017-06",
+    "metric": "revenue_growth_pct",
+    "value": -13.8,
+    "benchmark": 0.0,
+    "severity": "Low",
+    "detail": "Revenue fell 13.8% vs the previous month (check for seasonality, e.g. after Black Friday)."
+  },
+  {
+    "type": "Revenue drop",
+    "entity": "2017-12",
+    "metric": "revenue_growth_pct",
+    "value": -26.5,
+    "benchmark": 0.0,
+    "severity": "Low",
+    "detail": "Revenue fell 26.5% vs the previous month (check for seasonality, e.g. after Black Friday)."
+  },
+  {
+    "type": "Revenue drop",
+    "entity": "2018-02",
+    "metric": "revenue_growth_pct",
+    "value": -10.6,
+    "benchmark": 0.0,
+    "severity": "Low",
+    "detail": "Revenue fell 10.6% vs the previous month (check for seasonality, e.g. after Black Friday)."
+  },
+  {
+    "type": "Revenue drop",
+    "entity": "2018-06",
+    "metric": "revenue_growth_pct",
+    "value": -12.4,
+    "benchmark": 0.0,
+    "severity": "Low",
+    "detail": "Revenue fell 12.4% vs the previous month (check for seasonality, e.g. after Black Friday)."
+  }
+]
