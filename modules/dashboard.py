@@ -26,7 +26,7 @@ def page_overview():
     st.subheader("Business overview")
 
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Delivered orders", f"{k['total_orders']:,}")
+    c1.metric("Delivered orders", f"{int(k['total_orders']):,}")
     c2.metric("Revenue", f"R$ {k['total_revenue'] / 1e6:.2f}M")
     c3.metric("Avg order value", f"R$ {k['avg_order_value']:.2f}")
     c4.metric("Freight share", f"{k['freight_share_pct']}%")
@@ -46,9 +46,14 @@ def page_overview():
     left.plotly_chart(fig, use_container_width=True)
 
     status = load_csv("order_status_mix")
-    right.plotly_chart(px.pie(status, names="order_status", values="orders",
-                              title="Order status mix", hole=0.45),
-                       use_container_width=True)
+    big = status[status["pct"] >= 1][["order_status", "orders"]]
+    rest = status.loc[status["pct"] < 1, "orders"].sum()
+    if rest:
+        big = pd.concat([big, pd.DataFrame([{"order_status": "other", "orders": rest}])])
+    fig2 = px.pie(big, names="order_status", values="orders",
+                  title="Order status mix", hole=0.45)
+    fig2.update_traces(textinfo="percent")
+    right.plotly_chart(fig2, use_container_width=True)
     st.caption("Late orders score far lower than on-time orders: delivery "
                "performance is the main driver of customer satisfaction.")
 
