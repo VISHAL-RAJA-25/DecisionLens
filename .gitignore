@@ -5,3 +5,4 @@ data/cleaned/
 *.db
 __pycache__/
 .DS_Store
+data/test_*.csv

@@ -5,6 +5,7 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from modules.upload import page_upload
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = ROOT / "data" / "processed"
@@ -154,6 +155,7 @@ PAGES = {
     "Geography": page_geography,
     "Sellers & Categories": page_sellers_categories,
     "Problems & AI": page_problems_ai,
+    "Analyze your data": page_upload,
 }
 
 
