@@ -1,0 +1,23 @@
+{
+  "rows": 96470,
+  "test_rows": 19294,
+  "late_rate_pct": 8.11,
+  "models": {
+    "Logistic regression (baseline)": {
+      "roc_auc": 0.716,
+      "pr_auc": 0.114,
+      "top10_recall": 0.203,
+      "top10_precision": 0.107,
+      "top10_lift": 2.03,
+      "threshold": 0.21522084757243287
+    },
+    "Gradient boosting": {
+      "roc_auc": 0.7,
+      "pr_auc": 0.097,
+      "top10_recall": 0.195,
+      "top10_precision": 0.103,
+      "top10_lift": 1.95,
+      "threshold": 0.13460158600557273
+    }
+  }
+}

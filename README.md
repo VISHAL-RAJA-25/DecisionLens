@@ -11,7 +11,9 @@ An end-to-end business analytics platform. It cleans raw transaction data, store
 3. **Calculates KPIs**: revenue, average order value, delivery time, late rate, review score, repeat-customer rate
 4. **Detects problems** with transparent rules (late-delivery states, spike months, weak sellers and categories, low retention)
 5. **Explains them with AI**: the LLM receives only summarized numbers and returns root causes and actions. If the API is unavailable, a rule-based fallback is used.
-6. **Analyzes any dataset**: upload a CSV or Excel file, map your columns, and get the same analysis for whichever fields you have
+6. **Analyzes any dataset**: upload a CSV or Excel file, map your columns, and get the same 
+analysis for whichever fields you have
+7. 7. **Predicts late deliveries**: a gradient-boosting model scores each order at purchase time and is evaluated on the most recent orders (time-based split) against a logistic-regression baseline. Flagging the riskiest 10% of orders catches about X% of late deliveries.
 
 ## Key findings (Olist, 2016-2018)
 
