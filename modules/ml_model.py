@@ -109,24 +109,27 @@ def evaluate(model, X, y):
 
 
 def train():
-    df = load_data()
-    df = df.sort_values("purchase_ts").reset_index(drop=True)
-    cut = int(len(df) * 0.8)
+    df = load_data().sort_values("purchase_ts").reset_index(drop=True)
+    cut = int(len(df) * 0.8)  # train on earlier orders, test on the latest 20%
     X, y = df[NUM + CAT], df["is_late"]
     X_tr, y_tr = X.iloc[:cut], y.iloc[:cut]
     X_te, y_te = X.iloc[cut:], y.iloc[cut:]
+    print(f"{len(df):,} delivered orders, late rate {y.mean() * 100:.2f}%")
 
-    models = {"Logistic regression (baseline)": logit_pipeline(),
+    models = {"Logistic regression": logit_pipeline(),
               "Gradient boosting": boosting_pipeline()}
     results = {}
     for name, m in models.items():
         m.fit(X_tr, y_tr)
         results[name] = evaluate(m, X_te, y_te)
         r = results[name]
-        print(f"{name:<32} AUC {r['roc_auc']}  PR-AUC {r['pr_auc']}  "
+        print(f"{name:<22} AUC {r['roc_auc']}  PR-AUC {r['pr_auc']}  "
               f"top-10% catches {r['top10_recall'] * 100:.0f}% of late orders")
 
-    best = models["Gradient boosting"]
+    best_name = max(results, key=lambda n: results[n]["roc_auc"])
+    best = models[best_name]
+    print(f"\nBest model: {best_name}")
+
     sample = X_te.sample(min(5000, len(X_te)), random_state=42)
     imp = permutation_importance(best, sample, y_te.loc[sample.index],
                                  scoring="roc_auc", n_repeats=3,
@@ -139,14 +142,14 @@ def train():
     MODEL_DIR.mkdir(exist_ok=True)
     importance.to_csv(IMPORTANCE_PATH, index=False)
 
-    metrics = {"rows": int(len(df)), "test_rows": int(len(y_te)),
-               "late_rate_pct": round(float(y.mean() * 100), 2),
-               "models": results}
-    METRICS_PATH.write_text(json.dumps(metrics, indent=2))
+    METRICS_PATH.write_text(json.dumps({
+        "rows": int(len(df)), "test_rows": int(len(y_te)),
+        "late_rate_pct": round(float(y.mean() * 100), 2),
+        "best": best_name, "models": results}, indent=2))
 
     joblib.dump({
         "model": best, "num": NUM, "cat": CAT,
-        "threshold": results["Gradient boosting"]["threshold"],
+        "threshold": results[best_name]["threshold"],
         "base_rate": float(y.mean()),
         "defaults": {c: float(df[c].median()) for c in NUM},
         "choices": {"customer_state": sorted(df["customer_state"].unique()),
@@ -170,15 +173,19 @@ def page_model():
         return
 
     m = json.loads(METRICS_PATH.read_text())
-    best = m["models"]["Gradient boosting"]
-    base = m["models"]["Logistic regression (baseline)"]
-    st.write(f"Trained on {m['rows']:,} delivered orders ({m['late_rate_pct']}% "
-             f"late), tested on {m['test_rows']:,} unseen orders. Uses only "
-             "information known at purchase time.")
+    best_name = m.get("best", "Gradient boosting")
+    best = m["models"][best_name]
+    base = [v for k, v in m["models"].items() if k != best_name][0]
+    st.write(f"Model: **{best_name}**. Trained on earlier orders and tested on "
+             f"the most recent {m['test_rows']:,} orders (time-based split; "
+             f"{m['late_rate_pct']}% late overall). Uses only information known "
+             "at purchase time.")
 
     c1, c2, c3 = st.columns(3)
-    c1.metric("ROC-AUC", best["roc_auc"], f"{best['roc_auc'] - base['roc_auc']:+.3f} vs baseline")
-    c2.metric("Late orders caught in top 10% risk", f"{best['top10_recall'] * 100:.0f}%")
+    c1.metric("ROC-AUC", best["roc_auc"],
+              f"{best['roc_auc'] - base['roc_auc']:+.3f} vs other model")
+    c2.metric("Late orders caught in top 10% risk",
+              f"{best['top10_recall'] * 100:.0f}%")
     c3.metric("Lift in top 10%", f"{best['top10_lift']}x")
     st.caption("If you flag the 10% riskiest orders, the model finds "
                f"{best['top10_recall'] * 100:.0f}% of all late orders. Random "
@@ -188,7 +195,7 @@ def page_model():
     st.plotly_chart(
         px.bar(imp, x="importance", y="feature", orientation="h",
                title="What drives late delivery (drop in AUC when shuffled)")
-        .update_yaxes(autorange="reversed"), use_container_width=True)
+        .update_yaxes(autorange="reversed"), width="stretch")
 
     st.markdown("#### Try it: score an order")
     bundle = joblib.load(MODEL_PATH)
@@ -227,7 +234,6 @@ def page_model():
         st.metric("Probability of arriving late", f"{p * 100:.1f}%",
                   f"{level} risk (average order: {bundle['base_rate'] * 100:.1f}%)",
                   delta_color="off")
-
 
 if __name__ == "__main__":
     train()

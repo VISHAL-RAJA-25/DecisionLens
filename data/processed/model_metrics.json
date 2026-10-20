@@ -2,8 +2,9 @@
   "rows": 96470,
   "test_rows": 19294,
   "late_rate_pct": 8.11,
+  "best": "Logistic regression",
   "models": {
-    "Logistic regression (baseline)": {
+    "Logistic regression": {
       "roc_auc": 0.716,
       "pr_auc": 0.114,
       "top10_recall": 0.203,

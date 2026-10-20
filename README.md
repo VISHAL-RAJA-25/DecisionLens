@@ -13,7 +13,7 @@ An end-to-end business analytics platform. It cleans raw transaction data, store
 5. **Explains them with AI**: the LLM receives only summarized numbers and returns root causes and actions. If the API is unavailable, a rule-based fallback is used.
 6. **Analyzes any dataset**: upload a CSV or Excel file, map your columns, and get the same 
 analysis for whichever fields you have
-7. 7. **Predicts late deliveries**: a gradient-boosting model scores each order at purchase time and is evaluated on the most recent orders (time-based split) against a logistic-regression baseline. Flagging the riskiest 10% of orders catches about X% of late deliveries.
+7. **Predicts late deliveries**: scores each order at purchase time using only information known then. Evaluated on the most recent orders (time-based split) against a gradient-boosting comparison model. The simpler logistic regression won, with about 0.72 ROC-AUC, and flagging the riskiest 10% of orders catches about 20% of late deliveries (2x better than random). A random split looked better (0.79 AUC) but leaked information from specific spike months, so I report the honest number.
 
 ## Key findings (Olist, 2016-2018)
 
